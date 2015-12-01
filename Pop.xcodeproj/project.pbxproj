@@ -14,6 +14,7 @@
 		30A5D2861C0D3A0F005AE41B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30A5D2851C0D3A0F005AE41B /* Assets.xcassets */; };
 		30A5D2891C0D3A0F005AE41B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30A5D2871C0D3A0F005AE41B /* LaunchScreen.storyboard */; };
 		30A5D2941C0D3A0F005AE41B /* PopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A5D2931C0D3A0F005AE41B /* PopTests.swift */; };
+		30B0639A1C0D5F4100004DA3 /* BubbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30B063991C0D5F4100004DA3 /* BubbleTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		30A5D28F1C0D3A0F005AE41B /* PopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30A5D2931C0D3A0F005AE41B /* PopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopTests.swift; sourceTree = "<group>"; };
 		30A5D2951C0D3A0F005AE41B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30B063991C0D5F4100004DA3 /* BubbleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BubbleTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		30A5D2701C0D3A0F005AE41B = {
 			isa = PBXGroup;
 			children = (
+				30B063991C0D5F4100004DA3 /* BubbleTableViewCell.swift */,
 				30A5D27B1C0D3A0F005AE41B /* Pop */,
 				30A5D2921C0D3A0F005AE41B /* PopTests */,
 				30A5D27A1C0D3A0F005AE41B /* Products */,
@@ -203,6 +206,7 @@
 				30A5D2811C0D3A0F005AE41B /* SecondViewController.swift in Sources */,
 				30A5D27D1C0D3A0F005AE41B /* AppDelegate.swift in Sources */,
 				30A5D27F1C0D3A0F005AE41B /* FirstViewController.swift in Sources */,
+				30B0639A1C0D5F4100004DA3 /* BubbleTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -331,6 +335,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pop;
@@ -342,6 +347,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pop;
@@ -392,6 +398,7 @@
 				30A5D29A1C0D3A0F005AE41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		30A5D29B1C0D3A0F005AE41B /* Build configuration list for PBXNativeTarget "PopTests" */ = {
 			isa = XCConfigurationList;
@@ -400,6 +407,7 @@
 				30A5D29D1C0D3A0F005AE41B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

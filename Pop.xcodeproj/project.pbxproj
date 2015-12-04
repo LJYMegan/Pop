@@ -27,11 +27,11 @@
 		30C050611C10FE3100D517C4 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C050551C10FE3100D517C4 /* Social.framework */; };
 		30C050621C10FE3100D517C4 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C050561C10FE3100D517C4 /* StoreKit.framework */; };
 		30C050631C10FE3100D517C4 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30C050571C10FE3100D517C4 /* SystemConfiguration.framework */; };
-		3D44F0011C1134F200C7839B /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D44EFFF1C1134F200C7839B /* Bolts.framework */; };
-		3D44F0021C1134F200C7839B /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D44F0001C1134F200C7839B /* Parse.framework */; };
 		3D44F0091C116F8800C7839B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44F0061C116F8800C7839B /* LoginViewController.swift */; };
 		3D44F00A1C116F8800C7839B /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44F0071C116F8800C7839B /* SignUpViewController.swift */; };
 		3D44F00B1C116F8800C7839B /* ResetPasswordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D44F0081C116F8800C7839B /* ResetPasswordViewController.swift */; };
+		3DEBC7EF1C122EF1004E04C3 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEBC7ED1C122EF1004E04C3 /* Bolts.framework */; };
+		3DEBC7F01C122EF1004E04C3 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DEBC7EE1C122EF1004E04C3 /* Parse.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,12 +69,12 @@
 		30C050551C10FE3100D517C4 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		30C050561C10FE3100D517C4 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		30C050571C10FE3100D517C4 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		3D44EFFF1C1134F200C7839B /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = "../../Downloads/parse-library-1/Bolts.framework"; sourceTree = "<group>"; };
-		3D44F0001C1134F200C7839B /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = "../../../Downloads/parse-library-1/Parse.framework"; sourceTree = "<group>"; };
-		3D44F0051C11358900C7839B /* Pop-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Pop-Bridging-Header.h"; sourceTree = "<group>"; };
 		3D44F0061C116F8800C7839B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../Downloads/ParseDemoStart/ParseDemo/LoginViewController.swift; sourceTree = "<group>"; };
 		3D44F0071C116F8800C7839B /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SignUpViewController.swift; path = ../../../Downloads/ParseDemoStart/ParseDemo/SignUpViewController.swift; sourceTree = "<group>"; };
 		3D44F0081C116F8800C7839B /* ResetPasswordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResetPasswordViewController.swift; path = ../../../Downloads/ParseDemoStart/ParseDemo/ResetPasswordViewController.swift; sourceTree = "<group>"; };
+		3DEBC7EC1C122CBC004E04C3 /* Pop-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Pop-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		3DEBC7ED1C122EF1004E04C3 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = Pop/Bolts.framework; sourceTree = "<group>"; };
+		3DEBC7EE1C122EF1004E04C3 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Parse.framework; path = Pop/Parse.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,10 +89,10 @@
 				30C0505C1C10FE3100D517C4 /* CoreLocation.framework in Frameworks */,
 				30C0505D1C10FE3100D517C4 /* libsqlite3.tbd in Frameworks */,
 				30C0505E1C10FE3100D517C4 /* libz.tbd in Frameworks */,
-				3D44F0011C1134F200C7839B /* Bolts.framework in Frameworks */,
+				3DEBC7EF1C122EF1004E04C3 /* Bolts.framework in Frameworks */,
 				30C0505F1C10FE3100D517C4 /* QuartzCore.framework in Frameworks */,
 				30C050601C10FE3100D517C4 /* Security.framework in Frameworks */,
-				3D44F0021C1134F200C7839B /* Parse.framework in Frameworks */,
+				3DEBC7F01C122EF1004E04C3 /* Parse.framework in Frameworks */,
 				30C050611C10FE3100D517C4 /* Social.framework in Frameworks */,
 				30C050621C10FE3100D517C4 /* StoreKit.framework in Frameworks */,
 				30C050631C10FE3100D517C4 /* SystemConfiguration.framework in Frameworks */,
@@ -112,6 +112,7 @@
 		30A5D2701C0D3A0F005AE41B = {
 			isa = PBXGroup;
 			children = (
+				3DEBC7EC1C122CBC004E04C3 /* Pop-Bridging-Header.h */,
 				30C0504C1C10FE3100D517C4 /* Accounts.framework */,
 				30C0504D1C10FE3100D517C4 /* AudioToolbox.framework */,
 				30C0504E1C10FE3100D517C4 /* CFNetwork.framework */,
@@ -128,7 +129,8 @@
 				30A5D27B1C0D3A0F005AE41B /* Pop */,
 				30A5D2921C0D3A0F005AE41B /* PopTests */,
 				30A5D27A1C0D3A0F005AE41B /* Products */,
-				3D44EFFF1C1134F200C7839B /* Bolts.framework */,
+				3DEBC7ED1C122EF1004E04C3 /* Bolts.framework */,
+				3DEBC7EE1C122EF1004E04C3 /* Parse.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -154,8 +156,6 @@
 				30A5D2851C0D3A0F005AE41B /* Assets.xcassets */,
 				30A5D2871C0D3A0F005AE41B /* LaunchScreen.storyboard */,
 				30A5D28A1C0D3A0F005AE41B /* Info.plist */,
-				3D44F0051C11358900C7839B /* Pop-Bridging-Header.h */,
-				3D44F0001C1134F200C7839B /* Parse.framework */,
 			);
 			path = Pop;
 			sourceTree = "<group>";
@@ -410,12 +410,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pop",
 				);
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/alexmartiniouk/Documents/Pop/Pop/Pop-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pop-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
@@ -429,12 +430,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Pop",
 				);
 				INFOPLIST_FILE = Pop/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.example.Pop;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "/Users/alexmartiniouk/Documents/Pop/Pop/Pop-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "Pop-Bridging-Header.h";
 			};
 			name = Release;
 		};

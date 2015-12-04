@@ -296,9 +296,9 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
                     <connections>
-                        <outlet property="Email" destination="hyt-mt-IUe" id="d5C-69-Nfx"/>
-                        <outlet property="Password" destination="fLD-xi-fRG" id="1kP-Sd-WMT"/>
-                        <outlet property="Username" destination="eKX-oU-y6Q" id="KM6-oU-JLO"/>
+                        <outlet property="emailField" destination="hyt-mt-IUe" id="aQh-KJ-Kc2"/>
+                        <outlet property="passwordField" destination="fLD-xi-fRG" id="m9g-IC-Zfo"/>
+                        <outlet property="usernameField" destination="eKX-oU-y6Q" id="tjd-QQ-eet"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jjp-Ob-1yh" userLabel="First Responder" sceneMemberID="firstResponder"/>
